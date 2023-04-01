@@ -12,7 +12,12 @@ Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be te
   - Microsoft Azure Subscription 
     - If you dont already have a subscription and would like to learn how to obtain one, I have a repository link on it.   https://github.com/msimotwo/mszuresubscription
 
+
 *<h3>Before you do an upgrade on a VM, review the upgrade requirements.</h3>*
 
 <h2>Windows Versions not able for in-plaace upgrade</h2>
+  - Windows Server 2012 Datacenter
+  - Windows Server 2012 Standard
+  - Windows Server 2008 R2 Datacenter
+  - Windows Server 2008 R2 Standard
  
