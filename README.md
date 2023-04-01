@@ -14,6 +14,7 @@ Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be te
   - Name: "Vm-osticket"
   - Username: "labuser" (for example/whatever you chose)
   - Password: "osTicketPassword1!" (for example/whatever you chose)
+
 *<h3>Before you do an upgrade on a VM, review the upgrade requirements.</h3>*
 
 <h2>Windows Versions not able for in-plaace upgrade</h2>
