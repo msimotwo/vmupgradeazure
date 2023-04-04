@@ -21,7 +21,11 @@ Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be te
     - Create an Azure Virtual Machine Windows 10, 4 vCPUs
       - Name: "VMSetup1"
         - Username: "labuser" (for example/whatever you chose)
-        - Password: "VMSetup123!" (for example/whatever you chose)
+        - Password: "VMSetup123!1" (for example/whatever you chose)
+
+<p align="center">
+<img src="https://i.imgur.com/OIz9zEZ.png" alt="Login"/>
+</p>
 
 *<h3>Before you do an upgrade on a VM, review the upgrade requirements.</h3>*
 
@@ -77,6 +81,10 @@ Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be te
     - .\setup.exe /auto upgrade /dynamicupdate disable 
 
   - *Select the correct "Upgrade to" image based on the current version and configuration of the VM using the following table:*
+
+<p align="center">
+<img src="https://i.imgur.com/zgXdJnC.png" alt="Table Diagram"/>
+</p>
 
 - *During the upgrade process the VM will automatically disconnect from the RDP session. After the VM is disconnected from the RDP session the progress of the upgrade can be monitored through the screenshot functionality available in the Azure portal.*
 
