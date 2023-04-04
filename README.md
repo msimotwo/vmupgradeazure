@@ -5,7 +5,7 @@
 
 <h2>How To Upgrade Existing Microsoft VM in Azure</h2>
 
-Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be teaching you how to upgrade an existing Microsoft server on Azure.<br>
+Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be teaching you how to upgrade an existing Microsoft server on Azure. I will be using [Learn.Microsoft.Com](https://learn.microsoft.com/en-us/azure/virtual-machines/windows-in-place-upgrade) to help me give a detailed step by step for upgrading.<br>
 
 *<h3>If you do not have a Microsoft Azure subscription and are looking to obtaining one, check out my repository on it!. [How to get a Microsoft Azure Subscription](https://github.com/msimotwo/mszuresubscription)</h3>*
 
@@ -42,4 +42,5 @@ Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be te
 - The in-place upgrade of the VM requires the managed disks. Its okay, most VM's on Azure use managed disks. Managed disks are like the physical disk but on a virtual level.
 - Windows recommends capturing a quick snapshot of the operating system disk and any other data disks on board. *This will enable you to revert to the previous state of the VM if anything fails during the in-place upgrade process.*
 
- 
+- To start an in-place upgrade the upgrade media must be attached to the VM as a Managed Disk. To create the upgrade media, modify the variables in the following PowerShell script for Windows Server 2022. The upgrade media disk can be used to upgrade multiple VMs, but it can only be used to upgrade a single VM at a time. To upgrade multiple VMs simultaneously multiple upgrade disks must be created for each simultaneous upgrade.
+- Here is the [Link](https://docs.google.com/document/d/1u3_zoOUYfd8HIRGuitxRaUUYFao06YZ9O-6I9rl8kOs/edit?usp=sharing) for the PowerShell script. Easy copy and paste.
