@@ -44,3 +44,21 @@ Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be te
 
 - To start an in-place upgrade the upgrade media must be attached to the VM as a Managed Disk. To create the upgrade media, modify the variables in the following PowerShell script for Windows Server 2022. The upgrade media disk can be used to upgrade multiple VMs, but it can only be used to upgrade a single VM at a time. To upgrade multiple VMs simultaneously multiple upgrade disks must be created for each simultaneous upgrade.
 - Here is the [Link](https://docs.google.com/document/d/1u3_zoOUYfd8HIRGuitxRaUUYFao06YZ9O-6I9rl8kOs/edit?usp=sharing) for the PowerShell script. Easy copy and paste.
+
+- Attach the upgrade media for the target Windows Server version to the VM which will be upgraded. This can be done while the VM is in the running or stopped state.
+
+<h2>Portal Instructions</h2>
+
+- Sign in to the Azure portal.
+
+  - Search for and select Virtual machines.
+
+    - Select a virtual machine to perform the in-place upgrade from the list.
+
+      - On the Virtual machine page, select Disks.
+
+      - On the Disks page, select Attach existing disks.
+
+        - In the drop-down for Disk name, select the name of the upgrade disk created in the previous step.
+
+          - Select Save to attach the upgrade disk to the VM.
