@@ -81,6 +81,7 @@ Hello, my name is Meshach Simotwo and I am a IT Professional. Today I will be te
 - *During the upgrade process the VM will automatically disconnect from the RDP session. After the VM is disconnected from the RDP session the progress of the upgrade can be monitored through the screenshot functionality available in the Azure portal.*
 
 <h2>Post Upgrade Tips</h3>
+
 - *Delete the snapshots of the OS disk and data disk(s) if they were created.*
 
 - *Delete the upgrade media Managed Disk.*
